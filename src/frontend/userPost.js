@@ -50,7 +50,7 @@ function UserPost(){
                             <Row><b>{posts.postedBy.name}</b></Row>
                             <Row>{posts.postedBy.school}</Row>
                             <Row>{posts.postedDate}</Row>
-           <Row>{posts.subject}    {posts.chapter}</Row>
+                            <Row>{posts.subject}    {posts.chapter}</Row>
                         </Col>
                         <Col>
                             {/* <Button style={{width:'30px',height:'30px',  marginTop:'10px',alignItems:'center'}}>
@@ -74,7 +74,6 @@ function UserPost(){
                         {
                         posts.photourl
                         ?<Image src={posts.photourl[2]} style={{width:'700px',height:'400px', margin:'25px'}}/>
-                       
                         :   <div></div>
                     }
                     </Row>
